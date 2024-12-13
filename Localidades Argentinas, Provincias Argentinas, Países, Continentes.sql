@@ -1,7 +1,6 @@
 CREATE TABLE continentes (
-    ID_continente SERIAL,
     nombre_continente VARCHAR PRIMARY KEY
-)
+);
 
 INSERT INTO continentes (nombre_continente)
 VALUES 
@@ -12,16 +11,16 @@ VALUES
     ('Centroamérica'), 
     ('Antártida'), 
     ('Oceanía'), 
-    ('África')
+    ('África');
 
------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 CREATE TABLE paises (
     ID_pais SERIAL PRIMARY KEY,
     nombre_pais VARCHAR,
     continente_pais VARCHAR,
     FOREIGN KEY (continente_pais) REFERENCES continentes(nombre_continente)
-)
+);
 
 INSERT INTO paises (nombre_pais, continente_pais)
 VALUES 
@@ -302,16 +301,16 @@ VALUES
     ('Uganda', 'África'), 
     ('Yibuti', 'África'), 
     ('Zambia', 'África'), 
-    ('Zimbabue', 'África')
+    ('Zimbabue', 'África');
 
-------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 CREATE TABLE provincias (
     ID_provincia SERIAL PRIMARY KEY,
     nombre_provincia VARCHAR,
-    pais_provincia VARCHAR,
+    pais_provincia INTEGER,
     FOREIGN KEY (pais_provincia) REFERENCES paises(ID_pais)
-)
+);
 
 INSERT INTO provincias (nombre_provincia, pais_provincia)
 VALUES 
@@ -338,19 +337,19 @@ VALUES
     ('Santa Fe', 1), 
     ('Santiago del Estero', 1), 
     ('Tierra del Fuego, Antártida e Islas del Atlántico Sur', 1), 
-    ('Tucumán', 1)
+    ('Tucumán', 1);
 
--------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 CREATE TABLE localidades (
     ID_localidad SERIAL PRIMARY KEY,
     nombre_localidad VARCHAR,
     codigos_postales_localidad VARCHAR, 
-    provincia_localidad VARCHAR,
-    pais_localidad VARCHAR,
+    provincia_localidad INTEGER,
+    pais_localidad INTEGER,
     FOREIGN KEY (provincia_localidad) REFERENCES provincias(ID_provincia),
     FOREIGN KEY (pais_localidad) REFERENCES paises(ID_pais)
-)
+);
 
 INSERT INTO localidades (nombre_localidad, codigos_postales_localidad, provincia_localidad, pais_localidad)
 VALUES 
@@ -12423,4 +12422,4 @@ VALUES
     ('Yucumanita', '', 24, 1), 
     ('Zarate', '', 24, 1), 
     ('Zarate Norte', '', 24, 1), 
-    ('Zarate Sur', '', 24, 1)
+    ('Zarate Sur', '', 24, 1);
