@@ -2,7 +2,7 @@
 - 8 Continentes/Divisiones
 - 280 Países
 - 24 Provincias Argentinas
-- 12,070 Localidades Argentinas:
+- 12,067 Localidades Argentinas:
     - 1,993 localidades en Buenos Aires
     - 415 localidades en Catamarca
     - 714 localidades en Chaco
@@ -24,6 +24,6 @@
     - 305 localidades en San Luis
     - 67 localidades en Santa Cruz
     - 843 localidades en Santa Fe
-    - 937 localidades en Santiago del Estero
+    - 934 localidades en Santiago del Estero
     - 26 localidades en Tierra del Fuego, Antártida e Islas del Atlántico Sur
-    - 486 localidades en Tucumán
+    - 486 localidades en Tucumán 24
