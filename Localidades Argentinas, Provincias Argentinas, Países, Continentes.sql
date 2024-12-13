@@ -1,17 +1,18 @@
 CREATE TABLE continentes (
+    codigo_continente INTEGER,
     nombre_continente VARCHAR PRIMARY KEY
 );
 
-INSERT INTO continentes (nombre_continente)
+INSERT INTO continentes (codigo_continente, nombre_continente)
 VALUES 
-    ('Sudamérica'), 
-    ('Norteamérica'), 
-    ('Europa'), 
-    ('Asia'), 
-    ('Centroamérica'), 
-    ('Antártida'), 
-    ('Oceanía'), 
-    ('África');
+    (1, 'Sudamérica'), 
+    (2, 'Norteamérica'), 
+    (3, 'Europa'), 
+    (4, 'Asia'), 
+    (5, 'Centroamérica'), 
+    (6, 'Antártida'), 
+    (7, 'Oceanía'), 
+    (8, 'África');
 
 ----------------------------------------------------------------------------------------------------
 
