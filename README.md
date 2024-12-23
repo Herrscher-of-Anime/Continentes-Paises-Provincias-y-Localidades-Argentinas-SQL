@@ -26,4 +26,4 @@
     - 843 localidades en Santa Fe
     - 934 localidades en Santiago del Estero
     - 26 localidades en Tierra del Fuego, Antártida e Islas del Atlántico Sur
-    - 486 localidades en Tucumán 24
+    - 486 localidades en Tucumán
