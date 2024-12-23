@@ -1,4 +1,4 @@
-# Lista de Continentes y Países del Mundo, junto con un listado de la Provincias y las Localidades Argentinas
+# Lista de Continentes y Países del Mundo, junto con las provincias y localidades Argentinas
 - 8 Continentes/Divisiones
 - 280 Países
 - 24 Provincias Argentinas
