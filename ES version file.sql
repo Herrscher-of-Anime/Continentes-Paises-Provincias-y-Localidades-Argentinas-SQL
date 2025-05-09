@@ -1,3 +1,6 @@
+-- Versión en Español.
+-- Pueden traducirla a los demás idiomas de ser necesario.
+
 CREATE TABLE continents (
     -- Lista de continentes conocidos, con algunos detalles
     continent_ID SERIAL PRIMARY KEY, 
