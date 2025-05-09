@@ -895,10 +895,737 @@ VALUES
             ('', 'Viena', 30, ''), 
             ('', 'Vorarlberg', 30, ''), 
 
-        -- 
+        -- Provincias de Bélgica
+            ('', '', 31, ''), 
 
-        -- 
-    --
+        -- Provincias de Belarús/Bielorrusia
+            ('', '', 32, ''), 
+
+        -- Provincias de Bosnia y Herzegovina
+            ('', '', 33, ''), 
+
+        -- Provincias de Bulgaria
+            ('', '', 34, ''), 
+
+        -- Provincias de Chequia/República Checa
+            ('', '', 35, ''), 
+
+        -- Provincias de Chipre
+            ('', '', 36, ''), 
+
+        -- Provincias de Ciudad del Vaticano
+            ('', '', 37, ''), 
+
+        -- Provincias de Croacia
+            ('', '', 38, ''), 
+
+        -- Provincias de Dinamarca
+            ('', '', 39, ''), 
+
+        -- Provincias de Eslovaquia
+            ('', '', 40, ''), 
+
+        -- Provincias de Eslovenia
+            ('', '', 41, ''), 
+
+        -- Provincias de España
+            ('', '', 42, ''), 
+
+        -- Provincias de Estonia
+            ('', '', 43, ''), 
+
+        -- Provincias de Finlandia
+            ('', '', 44, ''), 
+
+        -- Provincias de Francia
+            ('', '', 45, ''), 
+
+        -- Provincias de Grecia
+            ('', '', 46, ''), 
+
+        -- Provincias de Hungría
+            ('', '', 47, ''), 
+
+        -- Provincias de Irlanda
+            ('', '', 48, ''), 
+
+        -- Provincias de Islandia
+            ('', '', 49, ''), 
+
+        -- Provincias de Italia
+            ('', '', 50, ''), 
+
+        -- Provincias de Letonia
+            ('', '', 51, ''), 
+
+        -- Provincias de Liechtenstein
+            ('', '', 52, ''), 
+
+        -- Provincias de Lituania
+            ('', '', 53, ''), 
+
+        -- Provincias de Luxemburgo
+            ('', '', 54, ''), 
+
+        -- Provincias de Macedonia del Norte
+            ('', '', 55, ''), 
+
+        -- Provincias de Malta
+            ('', '', 56, ''), 
+
+        -- Provincias de Moldavia
+            ('', '', 57, ''), 
+
+        -- Provincias de Mónaco
+            ('', '', 58, ''), 
+
+        -- Provincias de Montenegro
+            ('', '', 59, ''), 
+
+        -- Provincias de Noruega
+            ('', '', 60, ''), 
+
+        -- Provincias de Países Bajos/Holanda
+            ('', '', 61, ''), 
+
+        -- Provincias de Polonia
+            ('', '', 62, ''), 
+
+        -- Provincias de Portugal
+            ('', '', 63, ''), 
+
+        -- Provincias de Reino Unido
+            ('', '', 64, ''), 
+
+        -- Provincias de Rumanía
+            ('', '', 65, ''), 
+
+        -- Provincias de San Marino
+            ('', '', 66, ''), 
+
+        -- Provincias de Serbia
+            ('', '', 67, ''), 
+
+        -- Provincias de Suecia
+            ('', '', 68, ''), 
+
+        -- Provincias de Suiza
+            ('', '', 69, ''), 
+
+        -- Provincias de Ucrania
+            ('', '', 70, ''), 
+
+        -- Provincias de Gibraltar
+            ('', '', 71, ''), 
+
+        -- Provincias de Guernsey
+            ('', '', 72, ''), 
+
+        -- Provincias de Isla de Man
+            ('', '', 73, ''), 
+
+        -- Provincias de Islas Feroe
+            ('', '', 74, ''), 
+
+        -- Provincias de Jersey
+            ('', '', 75, ''), 
+
+        -- Provincias de Svalbard y Jan Mayen
+            ('', '', 76, ''), 
+
+        -- Provincias de Kosovo/Kósovo
+            ('', '', 77, ''), 
+
+    -- Provincias de Asia
+        -- Provincias de Afganistán
+            ('', '', 78, ''), 
+
+        -- Provincias de Arabia Saudita
+            ('', '', 79, ''), 
+
+        -- Provincias de Armenia
+            ('', '', 80, ''), 
+
+        -- Provincias de Azerbaiyán
+            ('', '', 81, ''), 
+
+        -- Provincias de Baréin
+            ('', '', 82, ''), 
+
+        -- Provincias de Bangladés
+            ('', '', 83, ''), 
+
+        -- Provincias de Brunéi
+            ('', '', 84, ''), 
+
+        -- Provincias de Bután
+            ('', '', 85, ''), 
+
+        -- Provincias de Camboya
+            ('', '', 86, ''), 
+
+        -- Provincias de Catar
+            ('', '', 87, ''), 
+
+        -- Provincias de China
+            ('', '', 88, ''), 
+
+        -- Provincias de Corea del Norte
+            ('', '', 89, ''), 
+
+        -- Provincias de Corea del Sur
+            ('', '', 90, ''), 
+
+        -- Provincias de Emiratos Árabes Unidos
+            ('', '', 91, ''), 
+
+        -- Provincias de Filipinas
+            ('', '', 92, ''), 
+
+        -- Provincias de Georgia
+            ('', '', 93, ''), 
+
+        -- Provincias de India
+            ('', '', 94, ''), 
+
+        -- Provincias de Indonesia
+            ('', '', 95, ''), 
+
+        -- Provincias de Irak
+            ('', '', 96, ''), 
+
+        -- Provincias de Irán
+            ('', '', 97, ''), 
+
+        -- Provincias de Israel
+            ('', '', 98, ''), 
+
+        -- Provincias de Japón
+            ('', '', 99, ''), 
+
+        -- Provincias de Jordania
+            ('', '', 100, ''), 
+
+        -- Provincias de Kazajistán
+            ('', '', 101, ''), 
+
+        -- Provincias de Kirguistán
+            ('', '', 102, ''), 
+
+        -- Provincias de Kiribati
+            ('', '', 103, ''), 
+
+        -- Provincias de Kuwait
+            ('', '', 104, ''), 
+
+        -- Provincias de Laos
+            ('', '', 105, ''), 
+
+        -- Provincias de Líbano
+            ('', '', 106, ''), 
+
+        -- Provincias de Malasia
+            ('', '', 107, ''), 
+
+        -- Provincias de Maldivas
+            ('', '', 108, ''), 
+
+        -- Provincias de Micronesia
+            ('', '', 109, ''), 
+
+        -- Provincias de Mongolia
+            ('', '', 110, ''), 
+
+        -- Provincias de Myanmar/Birmania
+            ('', '', 111, ''), 
+
+        -- Provincias de Nauru
+            ('', '', 112, ''), 
+
+        -- Provincias de Nepal
+            ('', '', 113, ''), 
+
+        -- Provincias de Omán
+            ('', '', 114, ''), 
+
+        -- Provincias de Pakistán
+            ('', '', 115, ''), 
+
+        -- Provincias de Palaos
+            ('', '', 116, ''), 
+
+        -- Provincias de Palestina
+            ('', '', 117, ''), 
+
+        -- Provincias de Papúa Nueva Guinea
+            ('', '', 118, ''), 
+
+        -- Provincias de Rusia
+            ('', '', 119, ''), 
+
+        -- Provincias de Singapur
+            ('', '', 120, ''), 
+
+        -- Provincias de Siria
+            ('', '', 121, ''), 
+
+        -- Provincias de Sri Lanka
+            ('', '', 122, ''), 
+
+        -- Provincias de Tailandia
+            ('', '', 123, ''), 
+
+        -- Provincias de Taiwán
+            ('', '', 124, ''), 
+
+        -- Provincias de Tayikistán
+            ('', '', 125, ''), 
+
+        -- Provincias de Turkmenistán
+            ('', '', 126, ''), 
+
+        -- Provincias de Turquía
+            ('', '', 127, ''), 
+
+        -- Provincias de Tuvalu
+            ('', '', 128, ''), 
+
+        -- Provincias de Uzbekistán
+            ('', '', 129, ''), 
+
+        -- Provincias de Vietnam
+            ('', '', 130, ''), 
+
+        -- Provincias de Yemen
+            ('', '', 131, ''), 
+
+        -- Provincias de Guam
+            ('', '', 132, ''), 
+
+        -- Provincias de Hong Kong
+            ('', '', 133, ''), 
+
+        -- Provincias de Islas Marianas del Norte
+            ('', '', 134, ''), 
+
+        -- Provincias de Macao
+            ('', '', 135, ''), 
+
+        -- Provincias de Niue
+            ('', '', 136, ''), 
+
+        -- Provincias de Territorio Británico del Océano Índico
+            ('', '', 137, ''), 
+
+    -- Provincias de Centroamérica
+        -- Provincias de Antigua y Barbuda
+            ('', '', 138, ''), 
+
+        -- Provincias de Bahamas
+            ('', '', 139, ''), 
+
+        -- Provincias de Barbados
+            ('', '', 140, ''), 
+
+        -- Provincias de Belice
+            ('', '', 141, ''), 
+
+        -- Provincias de Costa Rica
+            ('', '', 142, ''), 
+
+        -- Provincias de Cuba
+            ('', '', 143, ''), 
+
+        -- Provincias de Dominica
+            ('', '', 144, ''), 
+
+        -- Provincias de El Salvador
+            ('', '', 145, ''), 
+
+        -- Provincias de Guatemala
+            ('', '', 146, ''), 
+
+        -- Provincias de Haití
+            ('', '', 147, ''), 
+
+        -- Provincias de Honduras
+            ('', '', 148, ''), 
+
+        -- Provincias de Jamaica
+            ('', '', 149, ''), 
+
+        -- Provincias de Nicaragua
+            ('', '', 150, ''), 
+
+        -- Provincias de Panamá
+            ('', '', 151, ''), 
+
+        -- Provincias de República Dominicana
+            ('', '', 152, ''), 
+
+        -- Provincias de San Cristóbal y Nieves
+            ('', '', 153, ''), 
+
+        -- Provincias de San Vicente y las Granadinas
+            ('', '', 154, ''), 
+
+        -- Provincias de Santa Lucía
+            ('', '', 155, ''), 
+
+        -- Provincias de Anguila
+            ('', '', 156, ''), 
+
+        -- Provincias de Aruba
+            ('', '', 157, ''), 
+
+        -- Provincias de Bonaire
+            ('', '', 158, ''), 
+
+        -- Provincias de Curazao
+            ('', '', 159, ''), 
+
+        -- Provincias de Guadalupe
+            ('', '', 160, ''), 
+
+        -- Provincias de Islas Caimán
+            ('', '', 161, ''), 
+
+        -- Provincias de Islas Turcas y Caicos
+            ('', '', 162, ''), 
+
+        -- Provincias de Islas Vírgenes Británicas
+            ('', '', 163, ''), 
+
+        -- Provincias de Islas Vírgenes de los Estados Unidos
+            ('', '', 164, ''), 
+
+        -- Provincias de Martinica
+            ('', '', 165, ''), 
+
+        -- Provincias de Montserrat
+            ('', '', 166, ''), 
+
+        -- Provincias de Puerto Rico
+            ('', '', 167, ''), 
+
+        -- Provincias de Saba
+            ('', '', 168, ''), 
+
+        -- Provincias de San Bartolomé (Francia)
+            ('', '', 169, ''), 
+
+        -- Provincias de San Eustaquio
+            ('', '', 170, ''), 
+
+        -- Provincias de San Martín (Francia)
+            ('', '', 171, ''), 
+
+        -- Provincias de San Martín (Países Bajos/Holanda)
+            ('', '', 172, ''), 
+
+    -- Provincias de Oceanía
+        -- Provincias de Australia (8 provincias)
+            ('', 'Australian Capital Territory', 173, ''),
+            ('', 'New South Wales', 173, ''),
+            ('', 'Northern Territory', 173, ''),
+            ('', 'Queensland', 173, ''),
+            ('', 'South Australia', 173, ''),
+            ('', 'Tasmania', 173, ''),
+            ('', 'Victoria', 173, ''),
+            ('', 'Western Australia', 173, ''), 
+
+        -- Provincias de Fiyi
+            ('', '', 174, ''), 
+
+        -- Provincias de Islas Cook
+            ('', '', 175, ''), 
+
+        -- Provincias de Islas Marshall
+            ('', '', 176, ''), 
+
+        -- Provincias de Islas Salomón
+            ('', '', 177, ''), 
+
+        -- Provincias de Nueva Zelanda
+            ('', '', 178, ''), 
+
+        -- Provincias de Samoa
+            ('', '', 179, ''), 
+
+        -- Provincias de Timor Oriental
+            ('', '', 180, ''), 
+
+        -- Provincias de Tonga
+            ('', '', 181, ''), 
+
+        -- Provincias de Vanuatu
+            ('', '', 182, ''), 
+
+        -- Provincias de Isla de Navidad
+            ('', '', 183, ''), 
+
+        -- Provincias de Isla Norfolk
+            ('', '', 184, ''), 
+
+        -- Provincias de Islas Ashmore y Cartier
+            ('', '', 185, ''), 
+
+        -- Provincias de Islas Cocos/Keeling
+            ('', '', 186, ''), 
+
+        -- Provincias de Islas Pitcairn
+            ('', '', 187, ''), 
+
+        -- Provincias de Nueva Caledonia
+            ('', '', 188, ''), 
+
+        -- Provincias de Polinesia Francesa
+            ('', '', 189, ''), 
+
+        -- Provincias de Samoa Americana
+            ('', '', 190, ''), 
+
+        -- Provincias de Tokelau
+            ('', '', 191, ''), 
+
+        -- Provincias de Wallis y Futuna
+            ('', '', 192, ''), 
+
+    -- Provincias de África
+        -- Provincias de Angola (18 provincias)
+            ('', 'Bengo', 193, ''),
+            ('', 'Benguela', 193, ''),
+            ('', 'Bié', 193, ''),
+            ('', 'Cabinda', 193, ''),
+            ('', 'Cunene', 193, ''),
+            ('', 'Huambo', 193, ''),
+            ('', 'Huíla', 193, ''),
+            ('', 'Kuando Kubango', 193, ''),
+            ('', 'Kwanza-Norte', 193, ''),
+            ('', 'Kwanza-Sul', 193, ''),
+            ('', 'Luanda', 193, ''),
+            ('', 'Lunda-Norte', 193, ''),
+            ('', 'Lunda-Sul', 193, ''),
+            ('', 'Malanje', 193, ''),
+            ('', 'Moxico', 193, ''),
+            ('', 'Namibe', 193, ''),
+            ('', 'Uíge', 193, ''),
+            ('', 'Zaire', 193, ''), 
+
+        -- Provincias de Argelia (48 provincias)
+            ('', 'Adrar', 194, ''), 
+            ('', 'Algiers', 194, ''), 
+            ('', 'Annaba', 194, ''), 
+            ('', 'Aïn Defla', 194, ''), 
+            ('', 'Aïn Témouchent', 194, ''), 
+            ('', 'Batna', 194, ''), 
+            ('', 'Biskra', 194, ''), 
+            ('', 'Blida', 194, ''), 
+            ('', 'Bordj Bou Arréridj', 194, ''), 
+            ('', 'Bouira', 194, ''), 
+            ('', 'Boumerdès', 194, ''), 
+            ('', 'Béchar', 194, ''), 
+            ('', 'Béjaïa', 194, ''), 
+            ('', 'Chlef', 194, ''), 
+            ('', 'Constantine', 194, ''), 
+            ('', 'Djelfa', 194, ''), 
+            ('', 'El Bayadh', 194, ''), 
+            ('', 'El Oued', 194, ''), 
+            ('', 'El Tarf', 194, ''), 
+            ('', 'Ghardaïa', 194, ''), 
+            ('', 'Guelma', 194, ''), 
+            ('', 'Illizi', 194, ''), 
+            ('', 'Jijel', 194, ''), 
+            ('', 'Khenchela', 194, ''), 
+            ('', 'Laghouat', 194, ''), 
+            ('', 'Mascara', 194, ''), 
+            ('', 'Mila', 194, ''), 
+            ('', 'Mostaganem', 194, ''), 
+            ('', 'M´Sila', 194, ''), 
+            ('', 'Médéa', 194, ''), 
+            ('', 'Naama', 194, ''), 
+            ('', 'Oran', 194, ''), 
+            ('', 'Ouargla', 194, ''), 
+            ('', 'Oum El Bouaghi', 194, ''), 
+            ('', 'Relizane', 194, ''), 
+            ('', 'Saïda', 194, ''), 
+            ('', 'Sidi Bel Abbès', 194, ''), 
+            ('', 'Skikda', 194, ''), 
+            ('', 'Souk Ahras', 194, ''), 
+            ('', 'Sétif', 194, ''), 
+            ('', 'Tamanghasset', 194, ''), 
+            ('', 'Tiaret', 194, ''), 
+            ('', 'Tindouf', 194, ''), 
+            ('', 'Tipasa', 194, ''), 
+            ('', 'Tissemsilt', 194, ''), 
+            ('', 'Tizi Ouzou', 194, ''), 
+            ('', 'Tlemcen', 194, ''), 
+            ('', 'Tébessa', 194, ''), 
+
+        -- Provincias de Benín
+            ('', '', 195, ''), 
+
+        -- Provincias de Botsuana
+            ('', '', 196, ''), 
+
+        -- Provincias de Burkina Faso
+            ('', '', 197, ''), 
+
+        -- Provincias de Burundi
+            ('', '', 198, ''), 
+
+        -- Provincias de Cabo Verde
+            ('', '', 199, ''), 
+
+        -- Provincias de Camerún
+            ('', '', 200, ''), 
+
+        -- Provincias de Chad
+            ('', '', 201, ''), 
+
+        -- Provincias de Comoras
+            ('', '', 202, ''), 
+
+        -- Provincias de Congo
+            ('', '', 203, ''), 
+
+        -- Provincias de Costa de Marfil
+            ('', '', 204, ''), 
+
+        -- Provincias de Egipto
+            ('', '', 205, ''), 
+
+        -- Provincias de Eritrea
+            ('', '', 206, ''), 
+
+        -- Provincias de Etiopía
+            ('', '', 207, ''), 
+
+        -- Provincias de Gabón
+            ('', '', 208, ''), 
+
+        -- Provincias de Gambia
+            ('', '', 209, ''), 
+
+        -- Provincias de Ghana
+            ('', '', 210, ''), 
+
+        -- Provincias de Guinea
+            ('', '', 211, ''), 
+
+        -- Provincias de Guinea-Bisáu
+            ('', '', 212, ''), 
+
+        -- Provincias de Guinea Ecuatorial
+            ('', '', 213, ''), 
+
+        -- Provincias de Kenia
+            ('', '', 214, ''), 
+
+        -- Provincias de Lesoto
+            ('', '', 215, ''), 
+
+        -- Provincias de Liberia
+            ('', '', 216, ''), 
+
+        -- Provincias de Libia
+            ('', '', 217, ''), 
+
+        -- Provincias de Madagascar
+            ('', '', 218, ''), 
+
+        -- Provincias de Malaui/Malawi
+            ('', '', 219, ''), 
+
+        -- Provincias de Malí
+            ('', '', 220, ''), 
+
+        -- Provincias de Marruecos
+            ('', '', 221, ''), 
+
+        -- Provincias de Mauricio
+            ('', '', 222, ''), 
+
+        -- Provincias de Mauritania
+            ('', '', 223, ''), 
+
+        -- Provincias de Mozambique
+            ('', '', 224, ''), 
+
+        -- Provincias de Namibia
+            ('', '', 225, ''), 
+
+        -- Provincias de Níger
+            ('', '', 226, ''), 
+
+        -- Provincias de Nigeria
+            ('', '', 227, ''), 
+
+        -- Provincias de República Centroafricana/Centroáfrica
+            ('', '', 228, ''), 
+
+        -- Provincias de República Democrática del Congo
+            ('', '', 229, ''), 
+
+        -- Provincias de Ruanda
+            ('', '', 230, ''), 
+
+        -- Provincias de Santo Tomé y Príncipe
+            ('', '', 231, ''), 
+
+        -- Provincias de Senegal
+            ('', '', 232, ''), 
+
+        -- Provincias de Seychelles
+            ('', '', 233, ''), 
+
+        -- Provincias de Sierra Leona/Sierra Leone
+            ('', '', 234, ''), 
+
+        -- Provincias de Somalia
+            ('', '', 235, ''), 
+
+        -- Provincias de Suazilandia/Esuatini
+            ('', '', 236, ''), 
+
+        -- Provincias de Sudáfrica
+            ('', '', 237, ''), 
+
+        -- Provincias de Sudán
+            ('', '', 238, ''), 
+
+        -- Provincias de Sudán del Sur
+            ('', '', 239, ''), 
+
+        -- Provincias de Tanzania
+            ('', '', 240, ''), 
+
+        -- Provincias de Togo
+            ('', '', 241, ''), 
+
+        -- Provincias de Túnez
+            ('', '', 242, ''), 
+
+        -- Provincias de Uganda
+            ('', '', 243, ''), 
+
+        -- Provincias de Yibuti
+            ('', '', 244, ''), 
+
+        -- Provincias de Zambia
+            ('', '', 245, ''), 
+
+        -- Provincias de Zimbabue
+            ('', '', 246, ''), 
+
+        -- Provincias de Mayotte
+            ('', '', 247, ''), 
+
+        -- Provincias de Reunión
+            ('', '', 248, ''), 
+
+        -- Provincias de República Árabe Saharaui Democrática
+            ('', '', 249, '');
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
