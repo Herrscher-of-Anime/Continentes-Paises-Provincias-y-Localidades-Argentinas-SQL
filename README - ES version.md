@@ -1,18 +1,24 @@
-# Lista de Continentes y Países del Mundo, junto con las provincias y localidades Argentinas
-
-- 8 Continentes/Divisiones
-  
-- 280 Países:
-    - 20 países en Sudamérica
-    - 7 países en Norteamérica
-    - 62 países en Europa
-    - 72 países en Asia
-    - 35 países en Centroamérica
-    - 2 "países" en Antártida
-    - 18 países en Oceanía
-    - 64 países en África
-
-- 24 Provincias Argentinas
+# Lista de Continentes, "Países" y "Provincias" del Mundo, junto con las Localidades Argentinas
+Esta lista completa contiene:
+- 8 Continentes
+- 249 Países
+  - 198 Países Soberanos
+    - 14 países en Sudamérica
+    - 3 países en Norteamérica
+    - 45 países en Europa
+    - 54 países en Asia
+    - 18 países en Centroamérica
+    - 10 países en Oceanía
+    - 54 países en África
+  - 51 Países No Soberanos
+    - 4 países en Sudamérica
+    - 4 países en Norteamérica
+    - 7 países en Europa
+    - 6 países en Asia
+    - 17 países en Centroamérica
+    - 10 países en Oceanía
+    - 3 países en África
+- ***** Provincias
 
 - 12,067 Localidades Argentinas:
     - 1,993 localidades en Buenos Aires
