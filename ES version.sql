@@ -990,17 +990,54 @@ VALUES
 
         -- Provincias de Ciudad del Vaticano (0 provincias)
 
-        -- Provincias de Croacia ( provincias)
-            ('', '', 38, ''), 
+        -- Provincias de Croacia (20 provincias)
+            ('', 'Bjelovar-Bilogora', 38, ''), 
+            ('', 'Brod-Posavina', 38, ''), 
+            ('', 'Dubrovnik-Neretva', 38, ''), 
+            ('', 'Istria', 38, ''), 
+            ('', 'Karlovac', 38, ''), 
+            ('', 'Koprivnica-Križevci', 38, ''), 
+            ('', 'Krapina-Zagorje', 38, ''), 
+            ('', 'Lika-Senj', 38, ''), 
+            ('', 'Međimurje', 38, ''), 
+            ('', 'Osijek-Baranya', 38, ''), 
+            ('', 'Požega-Eslavonia', 38, ''), 
+            ('', 'Primorje-Gorski Kotar', 38, ''), 
+            ('', 'Šibenik-Knin', 38, ''), 
+            ('', 'Sisak-Moslavina', 38, ''), 
+            ('', 'Split-Dalmacia', 38, ''), 
+            ('', 'Varaždin', 38, ''), 
+            ('', 'Virovitica-Podravina', 38, ''), 
+            ('', 'Vukovar-Sirmia', 38, ''), 
+            ('', 'Zadar', 38, ''), 
+            ('', 'Zagreb', 38, ''), 
 
-        -- Provincias de Dinamarca ( provincias)
-            ('', '', 39, ''), 
+        -- Provincias de Dinamarca (5 provincias)
+            ('', 'Hovedstaden', 39, ''), 
+            ('', 'Midtjylland', 39, ''), 
+            ('', 'Nordjylland', 39, ''), 
+            ('', 'Sjælland', 39, ''), 
+            ('', 'Syddanmark', 39, ''), 
 
-        -- Provincias de Eslovaquia ( provincias)
-            ('', '', 40, ''), 
+        -- Provincias de Eslovaquia (8 provincias)
+            ('', 'Banskobystrický', 40, ''), 
+            ('', 'Bratislavský', 40, ''), 
+            ('', 'Košický', 40, ''), 
+            ('', 'Nitriansky', 40, ''), 
+            ('', 'Prešovský', 40, ''), 
+            ('', 'Trenčiansky', 40, ''), 
+            ('', 'Trnavský', 40, ''), 
+            ('', 'Žilinský', 40, ''), 
 
-        -- Provincias de Eslovenia ( provincias)
-            ('', '', 41, ''), 
+        -- Provincias de Eslovenia (8 provincias)
+            ('', 'Dolenjska', 41, ''), 
+            ('', 'Gorenjska', 41, ''), 
+            ('', 'Goriška', 41, ''), 
+            ('', 'Koroška', 41, ''), 
+            ('', 'Notranjska', 41, ''), 
+            ('', 'Prekmurje', 41, ''), 
+            ('', 'Slovenska Istra', 41, ''), 
+            ('', 'Štajerska', 41, ''), 
 
         -- Provincias de España (52 provincias)
             ('', 'Ávila', 42, ''), 
@@ -1056,14 +1093,57 @@ VALUES
             ('', 'Zamora', 42, ''), 
             ('', 'Zaragoza', 42, ''), 
 
-        -- Provincias de Estonia ( provincias)
-            ('', '', 43, ''), 
+        -- Provincias de Estonia (15 provincias)
+            ('', 'Harjumaa', 43, ''), 
+            ('', 'Hiiumaa', 43, ''), 
+            ('', 'Ida-Virumaa', 43, ''), 
+            ('', 'Järvamaa', 43, ''), 
+            ('', 'Jõgevamaa', 43, ''), 
+            ('', 'Lääne-Virumaa', 43, ''), 
+            ('', 'Läänemaa', 43, ''), 
+            ('', 'Pärnumaa', 43, ''), 
+            ('', 'Põlvamaa', 43, ''), 
+            ('', 'Raplamaa', 43, ''), 
+            ('', 'Saaremaa', 43, ''), 
+            ('', 'Tartumaa', 43, ''), 
+            ('', 'Valgamaa', 43, ''), 
+            ('', 'Viljandimaa', 43, ''), 
+            ('', 'Võrumaa', 43, ''), 
 
-        -- Provincias de Finlandia ( provincias)
-            ('', '', 44, ''), 
+        -- Provincias de Finlandia (18 provincias)
+            ('', 'Carelia del Norte', 44, ''), 
+            ('', 'Carelia del Sur', 44, ''), 
+            ('', 'Finlandia Central', 44, ''), 
+            ('', 'Finlandia del Sudoeste', 44, ''), 
+            ('', 'Kainuu', 44, ''), 
+            ('', 'Kymenlaakso', 44, ''), 
+            ('', 'Laponia', 44, ''), 
+            ('', 'Ostrobotnia', 44, ''), 
+            ('', 'Ostrobotnia Central', 44, ''), 
+            ('', 'Ostrobotnia del Norte', 44, ''), 
+            ('', 'Ostrobotnia del Sur', 44, ''), 
+            ('', 'Pirkanmaa', 44, ''), 
+            ('', 'Päijänne Tavastia', 44, ''), 
+            ('', 'Satakunta', 44, ''), 
+            ('', 'Savonia del Norte', 44, ''), 
+            ('', 'Savonia del Sur', 44, ''), 
+            ('', 'Tavastia Propia', 44, ''), 
+            ('', 'Uusimaa', 44, ''), 
 
-        -- Provincias de Francia ( provincias)
-            ('', '', 45, ''), 
+        -- Provincias de Francia (13 provincias)
+            ('', 'Alta Francia', 45, ''), 
+            ('', 'Auvernia-Ródano-Alpes', 45, ''), 
+            ('', 'Borgoña-Franco Condado', 45, ''), 
+            ('', 'Bretaña', 45, ''), 
+            ('', 'Centro-Valle de Loira', 45, ''), 
+            ('', 'Córcega', 45, ''), 
+            ('', 'Gran Este', 45, ''), 
+            ('', 'Isla de Francia', 45, ''), 
+            ('', 'Normandía', 45, ''), 
+            ('', 'Nueva Aquitania', 45, ''), 
+            ('', 'Occitania', 45, ''), 
+            ('', 'Países del Loira', 45, ''), 
+            ('', 'Provenza-Alpes-Costa Azul', 45, ''), 
 
         -- Provincias de Grecia (13 provincias)
             ('', 'Attica', 46, ''), 
@@ -1130,8 +1210,15 @@ VALUES
             ('', 'Wexford', 48, ''), 
             ('', 'Wicklow', 48, ''), 
 
-        -- Provincias de Islandia ( provincias)
-            ('', '', 49, ''), 
+        -- Provincias de Islandia (8 provincias)
+            ('', 'Austurland', 49, ''), 
+            ('', 'Höfuðborgarsvæðið', 49, ''), 
+            ('', 'Norðurland Eystra', 49, ''), 
+            ('', 'Norðurland Vestra', 49, ''), 
+            ('', 'Suðurland', 49, ''), 
+            ('', 'Suðurnes', 49, ''), 
+            ('', 'Vestfirðir', 49, ''), 
+            ('', 'Vesturland', 49, ''),  
 
         -- Provincias de Italia (107 provincias)
             ('', 'Agrigento', 50, ''), 
@@ -1242,17 +1329,87 @@ VALUES
             ('', 'Vicenza', 50, ''), 
             ('', 'Viterbo', 50, ''), 
 
-        -- Provincias de Letonia ( provincias)
-            ('', '', 51, ''), 
+        -- Provincias de Letonia (41 provincias)
+            ('', 'Aizkraukle', 51, ''), 
+            ('', 'Alūksne', 51, ''), 
+            ('', 'Augšdaugava', 51, ''), 
+            ('', 'Balvi', 51, ''), 
+            ('', 'Bauska', 51, ''), 
+            ('', 'Cēsis', 51, ''), 
+            ('', 'Daugavpils', 51, ''), 
+            ('', 'Dobele', 51, ''), 
+            ('', 'Gulbene', 51, ''), 
+            ('', 'Jelgava', 51, ''), 
+            ('', 'Jēkabpils', 51, ''), 
+            ('', 'Jūrmala', 51, ''), 
+            ('', 'Krāslava', 51, ''), 
+            ('', 'Kuldīga', 51, ''), 
+            ('', 'Kurzeme', 51, ''), 
+            ('', 'Liepāja', 51, ''), 
+            ('', 'Limbaži', 51, ''), 
+            ('', 'Ludza', 51, ''), 
+            ('', 'Līvāni', 51, ''), 
+            ('', 'Madona', 51, ''), 
+            ('', 'Meridional', 51, ''), 
+            ('', 'Mārupe', 51, ''), 
+            ('', 'Ogre', 51, ''), 
+            ('', 'Olaine', 51, ''), 
+            ('', 'Preiļi', 51, ''), 
+            ('', 'Riga', 51, ''), 
+            ('', 'Ropaži', 51, ''), 
+            ('', 'Rēzekne', 51, ''), 
+            ('', 'Salaspils', 51, ''), 
+            ('', 'Saldus', 51, ''), 
+            ('', 'Saulkrasti', 51, ''), 
+            ('', 'Sigulda', 51, ''), 
+            ('', 'Smiltene', 51, ''), 
+            ('', 'Talsi', 51, ''), 
+            ('', 'Tukums', 51, ''), 
+            ('', 'Valka', 51, ''), 
+            ('', 'Valmiera', 51, ''), 
+            ('', 'Varakļāni', 51, ''), 
+            ('', 'Ventspils', 51, ''), 
+            ('', 'Ādaži', 51, ''), 
+            ('', 'Ķekava', 51, ''), 
 
-        -- Provincias de Liechtenstein ( provincias)
-            ('', '', 52, ''), 
+        -- Provincias de Liechtenstein (11 provincias)
+            ('', 'Balzers', 52, ''), 
+            ('', 'Eschen', 52, ''), 
+            ('', 'Gamprin', 52, ''), 
+            ('', 'Mauren', 52, ''), 
+            ('', 'Planken', 52, ''), 
+            ('', 'Ruggell', 52, ''), 
+            ('', 'Schaan', 52, ''), 
+            ('', 'Schellenberg', 52, ''), 
+            ('', 'Triesen', 52, ''), 
+            ('', 'Triesenberg', 52, ''), 
+            ('', 'Vaduz', 52, ''), 
 
-        -- Provincias de Lituania ( provincias)
-            ('', '', 53, ''), 
+        -- Provincias de Lituania (10 provincias)
+            ('', 'Alytaus', 53, ''), 
+            ('', 'Kauno', 53, ''), 
+            ('', 'Klaipėdos', 53, ''), 
+            ('', 'Marijampolės', 53, ''), 
+            ('', 'Panevėžio', 53, ''), 
+            ('', 'Tauragės', 53, ''), 
+            ('', 'Telšių', 53, ''), 
+            ('', 'Utenos', 53, ''), 
+            ('', 'Vilniaus', 53, ''), 
+            ('', 'Šiaulių', 53, ''), 
 
-        -- Provincias de Luxemburgo ( provincias)
-            ('', '', 54, ''), 
+        -- Provincias de Luxemburgo (12 provincias)
+            ('', 'Capellen', 54, ''), 
+            ('', 'Clervaux', 54, ''), 
+            ('', 'Diekirch', 54, ''), 
+            ('', 'Echternach', 54, ''), 
+            ('', 'Esch-sur-Alzette', 54, ''), 
+            ('', 'Grevenmacher', 54, ''), 
+            ('', 'Luxemburgo', 54, ''), 
+            ('', 'Mersch', 54, ''), 
+            ('', 'Redange', 54, ''), 
+            ('', 'Remich', 54, ''), 
+            ('', 'Vianden', 54, ''), 
+            ('', 'Wiltz', 54, ''), 
 
         -- Provincias de Macedonia del Norte ( provincias)
             ('', '', 55, ''), 
