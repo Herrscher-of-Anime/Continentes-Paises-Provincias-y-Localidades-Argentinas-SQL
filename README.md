@@ -11,16 +11,25 @@ This list contains:
     - 10 countries in Oceania
     - 54 countries in Africa
   - 51 Non-Sovereign Countries
-    - 4
-    - 4
-    - 7
-    - 6
-    - 17
-    - 10
-    - 3
+    - 4 countries in South America
+    - 4 countries in North America
+    - 7 countries in Europe
+    - 6 countries in Asia
+    - 17 countries in Central America
+    - 10 countries in Oceania
+    - 3 countries in Africa
 - ***** Provinces
-    - 318 provinces in South America
-    - 125 provinces in North America
+  - **** Sovereign Country provinces
+    - 276 provinces in South America
+    - *** provinces in North America
+    - *** provinces in Europe
+    - *** provinces in Asia
+    - *** provinces in Central America
+    - *** provinces in Oceania
+    - *** provinces in Africa
+  - **** Non-Sovereign Country provinces
+    - *** provinces in South America
+    - *** provinces in North America
     - *** provinces in Europe
     - *** provinces in Asia
     - *** provinces in Central America
