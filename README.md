@@ -1,5 +1,4 @@
-- EN Version -
-# List of Continents, Countries, States of the World + Argentinian Locations
+# List of Continents, Countries, States of the World + Argentinian Locations - EN Version
 This list contains:
 - 8 Continents
 - 249 Countries
@@ -28,8 +27,7 @@ This list contains:
     - *** provinces in Oceania
     - *** provinces in Africa
 --- 
-- ES version -
-# Lista de Continentes, "Países" y "Provincias" del Mundo, junto con las Localidades Argentinas
+# Lista de Continentes, "Países" y "Provincias" del Mundo, junto con las Localidades Argentinas - ES version
 Esta lista completa contiene:
 - 8 Continentes
 - 249 Países
