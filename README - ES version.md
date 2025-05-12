@@ -18,4 +18,11 @@ Esta lista completa contiene:
     - 17 países en Centroamérica
     - 10 países en Oceanía
     - 3 países en África
-- ***** Provincias
+- **443 Provincias
+  - 318 provincias en Sudamérica
+  - 125 provincias en Norteamérica
+  -  provincias en Europa
+  -  provincias en Asia
+  -  provincias en Centroamérica
+  -  provincias en Oceanía
+  -  provincias en África
