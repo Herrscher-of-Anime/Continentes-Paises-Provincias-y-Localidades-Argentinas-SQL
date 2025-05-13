@@ -67,7 +67,7 @@ VALUES
 
     -- Países de Europa (52 países)
         -- Soberanos (45 países) 
-            ('ALA', 'Åland/Alandia', 3, '', TRUE), 
+            ('ALA', 'Åland', 3, '', TRUE), 
             ('ALB', 'Albania', 3, '', TRUE), 
             ('DEU', 'Alemania', 3, '', TRUE), 
             ('AND', 'Andorra', 3, '', TRUE), 
@@ -313,7 +313,7 @@ CREATE TABLE states (
     -- Lista de provincias/departamentos/estados/cantones/municipios/subdivisiones/parroquias/sectores/etc. de primer nivel en los países
     state_ID SERIAL PRIMARY KEY, 
     state_iso_type_code VARCHAR(7), 
-    state_name VARCHAR(53) NOT NULL, -- Este límite es aparente, ya que se basa en el más largo de la lista. Pueden cambiarlo si existe uno más largo en el futuro.
+    state_name VARCHAR(107) NOT NULL, -- Este límite es aparente, ya que se basa en el más largo de la lista. Pueden cambiarlo si existe uno más largo en el futuro.
     state_country INTEGER NOT NULL, 
     observation TEXT, 
     is_active BOOLEAN DEFAULT TRUE, 
@@ -798,5 +798,152 @@ VALUES
                 ('Yucatán', 21, ''), 
                 ('Zacatecas', 21, ''), 
         -- No Soberanos
-            -- Provincias de Bermudas/Bermuda (9 provincias)
-                ('', 22, ''), 
+            -- Parroquias de Bermudas/Bermuda (9 parroquias)
+                ('Devonshire', 22, ''), 
+                ('Hamilton', 22, ''), 
+                ('Paget', 22, ''), 
+                ('Pembroke', 22, ''), 
+                ('Saint George', 22, ''), 
+                ('Sandys', 22, ''), 
+                ('Smith', 22, ''), 
+                ('Southampton', 22, ''), 
+                ('Warwick', 22, ''), 
+
+            -- Municipalidades & Área no incorporada de Groenlandia (6)
+                ('Avannaata Kommunia', 23, ''), 
+                ('Kalaallit Nunaanni nuna eqqissisimatitaq/Grønlands Nationalpark', 23, ''), 
+                ('Kommune Kujalleq', 23, ''), 
+                ('Kommune Qeqertalik', 23, ''), 
+                ('Kommuneqarfik Sermersooq', 23, ''), 
+                ('Qeqqata Kommunia', 23, ''), 
+
+            -- Atolones, Islas & Arrecife de Islas Ultramarinas Menores de Estados Unidos (9)
+                ('Baker Island', 24, ''), 
+                ('Howland Island', 24, ''), 
+                ('Jarvis Island', 24, ''), 
+                ('Johnston Atoll', 24, 'Atolón'), 
+                ('Kingman Reef', 24, 'Arrecife'), 
+                ('Midway Atoll', 24, 'Atolón'), 
+                ('Navassa Island', 24, ''), 
+                ('Palmyra Atoll', 24, 'Atolón'), 
+                ('Wake Island', 24, ''), 
+
+            -- Comunas de San Pedro y Miquelón (2 comunas)
+                ('Miquelón-Langlade', 25, ''), 
+                ('Saint Pierre', 25, ''), 
+
+    -- Provincias de Europa
+        -- Soberanos
+            -- Municipios de Åland (16 municipios)
+                ('Brändö', 26, ''), 
+                ('Eckerö', 26, ''), 
+                ('Finström', 26, ''), 
+                ('Föglö', 26, ''), 
+                ('Geta', 26, ''), 
+                ('Hammarland', 26, ''), 
+                ('Jomala', 26, ''), 
+                ('Kumlinge', 26, ''), 
+                ('Kökar', 26, ''), 
+                ('Lemland', 26, ''), 
+                ('Lumparland', 26, ''), 
+                ('Mariehamn', 26, ''), 
+                ('Saltvik', 26, ''), 
+                ('Sottunga', 26, ''), 
+                ('Sund', 26, ''), 
+                ('Vardö', 26, ''), 
+
+            -- Condados de Albania (12 condados)
+                ('Beratit', 27, ''), 
+                ('Dibrës', 27, ''), 
+                ('Durrësit', 27, ''), 
+                ('Elbasanit', 27, ''), 
+                ('Fierit', 27, ''), 
+                ('Gjirokastrës', 27, ''), 
+                ('Korçës', 27, ''), 
+                ('Kukësit', 27, ''), 
+                ('Lezhës', 27, ''), 
+                ('Shkodrës', 27, ''), 
+                ('Tiranës', 27, ''), 
+                ('Vlorës', 27, ''), 
+
+            -- Estados federados de Alemania (16 estados)
+                ('Baden-Württemberg', 28, ''), 
+                ('Bayern', 28, ''), 
+                ('Berlin', 28, ''), 
+                ('Brandenburg', 28, ''), 
+                ('Bremen', 28, ''), 
+                ('Hamburg', 28, ''), 
+                ('Hessen', 28, ''), 
+                ('Mecklenburg-Vorpommern', 28, ''), 
+                ('Niedersachsen', 28, ''), 
+                ('Nordrhein-Westfalen', 28, ''), 
+                ('Rheinland-Pfalz', 28, ''), 
+                ('Saarland', 28, ''), 
+                ('Sachsen', 28, ''), 
+                ('Sachsen-Anhalt', 28, ''), 
+                ('Schleswig-Holstein', 28, ''), 
+                ('Thüringen', 28, ''), 
+
+            -- Parroquias de Andorra (7 parroquias)
+                ('Andorra la Vella', 29, ''), 
+                ('Canillo', 29, ''), 
+                ('Encamp', 29, ''), 
+                ('Escaldes-Engordany', 29, ''), 
+                ('La Massana', 29, ''), 
+                ('Ordino', 29, ''), 
+                ('Sant Julià de Lòria', 29, ''), 
+
+            -- Estados federados de Austria (9 estados)
+                ('Burgenland/Őrvidék', 30, ''), 
+                ('Kärnten', 30, ''), 
+                ('Niederösterreich', 30, ''), 
+                ('Oberösterreich', 30, ''), 
+                ('Salzburg', 30, ''), 
+                ('Steiermark', 30, ''), 
+                ('Tirol', 30, ''), 
+                ('Vorarlberg', 30, ''), 
+                ('Wien', 30, ''), 
+
+            -- Provincias de Bélgica (10 provincias)
+                ('Amberes/Antwerpen/Anvers/Antwerpen', 31, ''), 
+                ('Brabante Flamenco/Vlaams-Brabant/Brabant flamand/Flämisch-Brabant', 31, ''), 
+                ('Brabante Valón/Waals-Brabant/Brabant wallon/Wallonisch-Brabant', 31, ''), 
+                ('Flandes Occidental/West-Vlaanderen/Flandre occidentale/Westflandern', 31, ''), 
+                ('Flandes Oriental/Oost-Vlaanderen/Flandre orientale/Ostflandern', 31, ''), 
+                ('Henao/Henegouwen/Hainaut/Hennegau', 31, ''), 
+                ('Lieja/Luik/Liège/Lüttich', 31, ''), 
+                ('Limburgo/Limburg/Limbourg', 31, ''), 
+                ('Luxemburgo/Luxemburg/Luxembourg', 31, ''), 
+                ('Namur/Namen/Namur/Namür', 31, ''), 
+
+            -- Regiones/Óblast de Belarús/Bielorrusia (6 regiones)
+                ('Брэ́сцкая во́бласць/Bresckaja vobłaść/Бре́стская о́бласть/Bréstskaya óblast', 32, ''), 
+                ('Ві́цебская во́бласць/Vítsebskaya Vóblast', 32, ''), 
+                ('Гомельская вобласць/Гомельская область', 32, ''), 
+                ('Гро́дзенская во́бласць/Hródzenskaia vóblast/Гро́дненская область/Gródnenskaia óblast', 32, ''), 
+                ('Магілёўская вобласць/Могилёвская область', 32, ''), 
+                ('Мінск/Mińsk/Минск', 32, ''), 
+                ('Мінская вобласць', 32, ''), 
+
+            -- Cantones & Regiones de Bosnia y Herzegovina (17)
+                ('Banjalučka/Banja Luka', 33, 'Región de la República Srpska'), 
+                ('Bijeljinska', 33, 'Región de la República Srpska'), 
+                ('Bosansko-podrinjskog kantona Goražde/Bosansko-podrinjska županija Goražde/Босанско-подрињски кантон Горажде', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
+                ('Dobojska', 33, 'Región de la República Srpska'), 
+                ('Fočanska', 33, 'Región de la República Srpska'), 
+                ('Hercegovačko-neretvanski/Hercegovačko-neretvanska/Херцеговачко-неретвански', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
+                ('Kanton 10/Hercegbosanska', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
+                ('Posavski/Posavska', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
+                ('Sarajevo-Romanija/Sokolac', 33, 'Región de la República Srpska'), 
+                ('Sarajevo/Vrhbosanska', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
+                ('Srednjobosanski/Središnja Bosna/Средњобосански', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
+                ('Trebinjska', 33, 'Región de la República Srpska'), 
+                ('Tuzlanski', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
+                ('Unsko-sanski', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
+                ('Vlaseninska', 33, 'Región de la República Srpska'), 
+                ('Zapadno-hercegovačka/Zapadno-hercegovačka', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
+                ('Zeničko-dobojski', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
+
+            -- 
+        -- No Soberanos
+            -- 
