@@ -18,11 +18,11 @@ This list contains:
     - 17 countries in Central America
     - 10 countries in Oceania
     - 3 countries in Africa
-- **456 Provinces
-  - *372 Sovereign Country provinces
+- ***** Provinces
+  - *** Sovereign Country provinces
     - 276 provinces in South America
     - 96 provinces in North America
-    - 135 provinces in Europe
+    - 556 provinces in Europe
     - *** provinces in Asia
     - *** provinces in Central America
     - *** provinces in Oceania
@@ -60,7 +60,7 @@ Esta lista completa contiene:
   - **** Provincias de países soberanos
     - 276 provincias en Sudamérica
     - 96 provincias en Norteamérica
-    - 135 provincias en Europa
+    - *** provincias en Europa
     - *** provincias en Asia
     - *** provincias en Centroamérica
     - *** provincias en Oceanía
