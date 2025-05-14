@@ -32,8 +32,8 @@ CREATE TABLE countries (
 
 INSERT INTO countries (country_iso_type_code, country_name, continent_id, observation, is_sovereign)
 VALUES 
-    -- Países de Sudamérica (18 países)
-        -- Soberanos (14 países)
+    -- Países de Sudamérica
+        -- Soberanos
             ('ARG', 'Argentina', 1, '', TRUE), 
             ('BOL', 'Bolivia', 1, '', TRUE), 
             ('BRA', 'Brasil', 1, '', TRUE), 
@@ -48,25 +48,25 @@ VALUES
             ('TTO', 'Trinidad y Tobago', 1, '', TRUE), 
             ('URY', 'Uruguay', 1, '', TRUE), 
             ('VEN', 'Venezuela', 1, '', TRUE), 
-        -- No Soberanos (4 países)
+        -- No Soberanos
             ('GUF', 'Guayana Francesa', 1, 'Territorio de Francia'), 
             ('SGS', 'Islas Georgias del Sur y Sandwich del Sur', 1, 'Territorio del Reino Unido'), 
             ('FLK', 'Islas Malvinas', 1, 'Territorio del Reino Unido'), 
             ('SHN', 'Santa Elena, Ascensión y Tristán de Acuña', 1, 'Territorio del Reino Unido'), 
 
-    -- Países de Norteamérica (7 países)
-        -- Soberanos (3 países) 
+    -- Países de Norteamérica
+        -- Soberanos
             ('CAN', 'Canadá', 2, '', TRUE), 
             ('USA', 'Estados Unidos', 2, '', TRUE), 
             ('MEX', 'México', 2, '', TRUE), 
-        -- No Soberanos (4 países)
+        -- No Soberanos
             ('BMU', 'Bermudas/Bermuda', 2, 'Territorio del Reino Unido'), 
             ('GRL', 'Groenlandia', 2, 'Territorio de Dinamarca'), 
             ('UMI', 'Islas Ultramarinas Menores de Estados Unidos', 2, 'Territorio de Estados Unidos'), 
             ('SPM', 'San Pedro y Miquelón', 2, 'Territorio de Francia'), 
 
-    -- Países de Europa (52 países)
-        -- Soberanos (45 países) 
+    -- Países de Europa
+        -- Soberanos
             ('ALA', 'Åland', 3, '', TRUE), 
             ('ALB', 'Albania', 3, '', TRUE), 
             ('DEU', 'Alemania', 3, '', TRUE), 
@@ -112,7 +112,7 @@ VALUES
             ('SWE', 'Suecia', 3, '', TRUE), 
             ('CHE', 'Suiza', 3, '', TRUE), 
             ('UKR', 'Ucrania', 3, '', TRUE), 
-        -- No Soberanos (7 países)
+        -- No Soberanos
             ('GIB', 'Gibraltar', 3, 'Territorio del Reino Unido'), 
             ('GGY', 'Guernsey', 3, 'Dependencia de la Corona Británica'), 
             ('IMN', 'Isla de Man', 3, 'Dependencia de la Corona Británica'), 
@@ -121,8 +121,8 @@ VALUES
             ('SJM', 'Svalbard y Jan Mayen', 3, 'Territorio de Noruega'), 
             ('RKS/KOS', 'Kosovo/Kósovo', 3, 'República con Soberanía discutida. Reconocido por ~100 países, relevante en los Balcanes.'), 
 
-    -- Países de Asia (60 países)
-        -- Soberanos (54 países)
+    -- Países de Asia
+        -- Soberanos
             ('AFG', 'Afganistán', 4, '', TRUE), 
             ('SAU', 'Arabia Saudita', 4, '', TRUE), 
             ('ARM', 'Armenia', 4, '', TRUE), 
@@ -177,7 +177,7 @@ VALUES
             ('UZB', 'Uzbekistán', 4, '', TRUE), 
             ('VNM', 'Vietnam', 4, '', TRUE), 
             ('YEM', 'Yemen', 4, '', TRUE), 
-        -- No Soberanos (6 países)
+        -- No Soberanos
             ('GUM', 'Guam', 4, 'Territorio de Estados Unidos'), 
             ('HKG', 'Hong Kong', 4, 'Región Administrativa Especial de China'), 
             ('MNP', 'Islas Marianas del Norte', 4, 'Territorio de Estados Unidos'), 
@@ -185,8 +185,8 @@ VALUES
             ('NIU', 'Niue', 4, 'Estado asociado a Nueva Zelanda'), 
             ('IOT', 'Territorio Británico del Océano Índico', 4, 'Base militar del Reino Unido'), 
 
-    -- Países de Centroamérica (35 países)
-        -- Soberanos (18 países)
+    -- Países de Centroamérica
+        -- Soberanos
             ('ATG', 'Antigua y Barbuda', 5, '', TRUE), 
             ('BHS', 'Bahamas', 5, '', TRUE), 
             ('BRB', 'Barbados', 5, '', TRUE), 
@@ -205,7 +205,7 @@ VALUES
             ('KNA', 'San Cristóbal y Nieves', 5, '', TRUE),
             ('VCT', 'San Vicente y las Granadinas', 5, '', TRUE), 
             ('LCA', 'Santa Lucía', 5, '', TRUE), 
-        -- No Soberanos (17 países)
+        -- No Soberanos
             ('AIA', 'Anguila', 5, 'Territorio del Reino Unido'), 
             ('ABW', 'Aruba', 5, 'País autónomo de Países Bajos'), 
             ('BES', 'Bonaire', 5, 'Municipio especial de Países Bajos'), 
@@ -224,8 +224,8 @@ VALUES
             ('MAF', 'San Martín (Francia)', 5, 'Territorio de Francia'), 
             ('SXM', 'San Martín (Países Bajos/Holanda)', 5, 'País autónomo de Países Bajos'), 
 
-    -- Países de Oceanía (20 países)
-        -- Soberanos (10 países)
+    -- Países de Oceanía
+        -- Soberanos
             ('AUS', 'Australia', 6, '', TRUE), 
             ('FJI', 'Fiyi', 6, '', TRUE), 
             ('COK', 'Islas Cook', 6, '', TRUE), 
@@ -236,7 +236,7 @@ VALUES
             ('TLS', 'Timor Oriental', 6, '', TRUE), 
             ('TON', 'Tonga', 6, '', TRUE), 
             ('VUT', 'Vanuatu', 6, '', TRUE), 
-        -- No Soberanos (10 países)
+        -- No Soberanos
             ('CXR', 'Isla de Navidad', 6, 'Territorio de Australia'), 
             ('NFK', 'Isla Norfolk', 6, 'Territorio de Australia'), 
             ('', 'Islas Ashmore y Cartier', 6, 'Territorio de Australia'), 
@@ -248,8 +248,8 @@ VALUES
             ('TKL', 'Tokelau', 6, 'Territorio de Nueva Zelanda'), 
             ('WLF', 'Wallis y Futuna', 6, 'Territorio de Francia'), 
 
-    -- Países de África (57 países)
-        -- Soberanos (54 países)
+    -- Países de África
+        -- Soberanos
             ('AGO', 'Angola', 7, '', TRUE), 
             ('DZA', 'Argelia', 7, '', TRUE), 
             ('BEN', 'Benín', 7, '', TRUE), 
@@ -304,7 +304,7 @@ VALUES
             ('DJI', 'Yibuti', 7, '', TRUE), 
             ('ZMB', 'Zambia', 7, '', TRUE), 
             ('ZWE', 'Zimbabue', 7, '', TRUE), 
-        -- No Soberanos (3 países)
+        -- No Soberanos
             ('MYT', 'Mayotte', 7, 'Territorio de Francia'),  
             ('REU', 'Reunión', 7, 'Territorio de Francia'), 
             ('ESH', 'República Árabe Saharaui Democrática', 7, 'Estado con Soberanía discutida. Reconocida por algunos países, actividad limitada pero relevante en contextos africanos.'); 
@@ -324,7 +324,7 @@ INSERT INTO states (state_name, state_country, observation)
 VALUES 
     -- "Provincias" de Sudamérica
         -- Soberanos
-            -- Provincias de Argentina (24 provincias)
+            -- Provincias de Argentina
                 ('Buenos Aires', 1, ''), 
                 ('Catamarca', 1, ''), 
                 ('Chaco', 1, ''), 
@@ -350,7 +350,7 @@ VALUES
                 ('Tierra del Fuego, Antártida e Islas del Atlántico Sur', 1, ''), 
                 ('Tucumán', 1, ''), 
             
-            -- Departamentos de Bolivia (9 departamentos)
+            -- Departamentos de Bolivia
                 ('Beni', 2, ''), 
                 ('Chuquisaca', 2, ''), 
                 ('Cochabamba', 2, ''), 
@@ -361,7 +361,7 @@ VALUES
                 ('Santa Cruz', 2, ''), 
                 ('Tarija', 2, ''), 
 
-            -- Unidades Federativas de Brasil (27 unidades federativas)
+            -- Unidades Federativas de Brasil
                 ('Acre', 3, ''), 
                 ('Alagoas', 3, ''), 
                 ('Amapá', 3, ''), 
@@ -390,7 +390,7 @@ VALUES
                 ('São Paulo', 3, ''), 
                 ('Tocantins', 3, ''), 
             
-            -- Regiones de Chile (16 regiones)
+            -- Regiones de Chile
                 ('Aisén del General Carlos Ibañez del Campo', 4, ''), 
                 ('Antofagasta', 4, ''), 
                 ('Arica y Parinacota', 4, ''), 
@@ -408,7 +408,7 @@ VALUES
                 ('Valparaíso', 4, ''), 
                 ('Ñuble', 4, ''), 
             
-            -- Departamentos de Colombia (33 departamentos)
+            -- Departamentos de Colombia
                 ('Amazonas', 5, ''), 
                 ('Antioquia', 5, ''), 
                 ('Arauca', 5, ''), 
@@ -443,7 +443,7 @@ VALUES
                 ('Vaupés', 5, ''), 
                 ('Vichada', 5, ''), 
 
-            -- Provincias de Ecuador (24 provincias)
+            -- Provincias de Ecuador
                 ('Azuay', 6, ''), 
                 ('Bolívar', 6, ''), 
                 ('Carchi', 6, ''), 
@@ -469,7 +469,7 @@ VALUES
                 ('Tungurahua', 6, ''), 
                 ('Zamora-Chinchipe', 6, ''), 
 
-            -- Parroquias & Territorios de Granada (14)
+            -- Parroquias & Territorios de Granada
                 ('Isla Caille', 7, ''), 
                 ('Isla de Carriacou/Cariobacú', 7, ''), 
                 ('Isla Diamante', 7, ''), 
@@ -485,7 +485,7 @@ VALUES
                 ('Saint Mark', 7, 'Parroquia'), 
                 ('Saint Patrick', 7, 'Parroquia'), 
 
-            -- Regiones de Guyana (10 regiones)
+            -- Regiones de Guyana
                 ('Alto Demerara-Berbice', 8, ''), 
                 ('Alto Tacutu-Alto Esequibo', 8, ''), 
                 ('Barima-Guainí', 8, ''), 
@@ -497,7 +497,7 @@ VALUES
                 ('Pomerón-Supenaam', 8, ''), 
                 ('Potaro-Siparuní', 8, ''), 
 
-            -- Departamentos de Paraguay (18 departamentos)
+            -- Departamentos de Paraguay
                 ('Alto Paraguay', 9, ''), 
                 ('Alto Paraná', 9, ''), 
                 ('Amambay', 9, ''), 
@@ -517,7 +517,7 @@ VALUES
                 ('Presidente Hayes', 9, ''), 
                 ('San Pedro', 9, ''), 
 
-            -- Departamentos de Perú (26 departamentos)
+            -- Departamentos de Perú
                 ('Amazonas', 10, ''), 
                 ('Áncash', 10, ''), 
                 ('Apurímac', 10, ''), 
@@ -545,7 +545,7 @@ VALUES
                 ('Tumbes', 10, ''), 
                 ('Ucayali', 10, ''), 
 
-            -- Distritos/Districten de Surinam/Suriname (10 distritos)
+            -- Distritos/Districten de Surinam
                 ('Brokopondo', 11, ''), 
                 ('Commewijne', 11, ''), 
                 ('Coronie', 11, ''), 
@@ -557,7 +557,7 @@ VALUES
                 ('Sipaliwini', 11, ''), 
                 ('Wanica', 11, ''), 
 
-            -- Municipios, Regiones & Parroquias de Trinidad y Tobago (21)
+            -- Municipios, Regiones & Parroquias de Trinidad y Tobago
                 ('Arima', 12, 'Municipio de Trinidad'), 
                 ('Chaguanas', 12, 'Municipio de Trinidad'), 
                 ('Couva-Tabaquite-Talparo', 12, 'Región de Trinidad'), 
@@ -580,7 +580,7 @@ VALUES
                 ('St. Paul', 12, 'Parroquia de Tobago'), 
                 ('Tunapuna-Piarco', 12, 'Región de Trinidad'), 
 
-            -- Departamentos de Uruguay (19 departamentos)
+            -- Departamentos de Uruguay
                 ('Artigas', 13, ''), 
                 ('Canelones', 13, ''), 
                 ('Cerro Largo', 13, ''), 
@@ -601,7 +601,7 @@ VALUES
                 ('Tacuarembó', 13, ''), 
                 ('Treinta y Tres', 13, ''), 
 
-            -- Entidades Federales de Venezuela (25 entidades federales)
+            -- Entidades Federales de Venezuela
                 ('Amazonas', 14, ''), 
                 ('Anzoátegui', 14, ''), 
                 ('Apure', 14, ''), 
@@ -628,7 +628,7 @@ VALUES
                 ('Yaracuy', 14, ''), 
                 ('Zulia', 14, ''), 
         -- No Soberanos
-            -- Comunas de Guayana Francesa/Guyane/Guyane française (22 comunas)
+            -- Comunas de Guayana Francesa
                 ('Apatou', 15, ''), 
                 ('Awala-Yalimapo', 15, ''), 
                 ('Camopi', 15, ''), 
@@ -652,7 +652,7 @@ VALUES
                 ('Saül', 15, ''), 
                 ('Sinnamary', 15, ''), 
             
-            -- Islas de Islas Georgias del Sur y Sandwich del Sur (31 islas)
+            -- Islas de Islas Georgias del Sur y Sandwich del Sur
                 ('Albatros', 16, 'Isla del grupo San Pedro'), 
                 ('Annenkov', 16, 'Isla del grupo San Pedro'), 
                 ('Bellingshausen', 16, 'Isla Tule del Sur'), 
@@ -685,18 +685,18 @@ VALUES
                 ('Visokoi', 16, 'Isla Traverse'), 
                 ('Zavodovski', 16, 'Isla Traverse'), 
             
-            -- Islas Principales de Islas Malvinas (2 islas principales)
+            -- Islas Principales de Islas Malvinas
                 ('Gran Malvina', 17, ''), 
                 ('Isla Soledad', 17, ''), 
             
-            -- Unidades Administrativas de Santa Elena, Ascensión y Tristán de Acuña (3 unidades administrativas)
+            -- Unidades Administrativas de Santa Elena, Ascensión y Tristán de Acuña
                 ('Isla Ascensión', 18, ''), 
                 ('Santa Elena', 18, ''), 
                 ('Tristán de Acuña', 18, ''), 
 
     -- Provincias de Norteamérica
         -- Soberanos
-            -- Provincias & Territorios de Canadá (13)
+            -- Provincias & Territorios de Canadá
                 ('Alberta', 19, ''), 
                 ('British Columbia', 19, ''), 
                 ('Manitoba', 19, ''), 
@@ -711,7 +711,7 @@ VALUES
                 ('Saskatchewan', 19, ''), 
                 ('Yukon', 19, ''), 
             
-            -- Estados de Estados Unidos (51 estados)
+            -- Estados de Estados Unidos
                 ('Alabama', 20, ''), 
                 ('Alaska', 20, ''), 
                 ('Arizona', 20, ''), 
@@ -764,7 +764,7 @@ VALUES
                 ('Wisconsin', 20, ''), 
                 ('Wyoming', 20, ''), 
             
-            -- Entidades federativas/Estados de México (32 entidades)
+            -- Entidades federativas/Estados de México
                 ('Aguascalientes', 21, ''), 
                 ('Baja California', 21, ''), 
                 ('Baja California Sur', 21, ''), 
@@ -798,7 +798,7 @@ VALUES
                 ('Yucatán', 21, ''), 
                 ('Zacatecas', 21, ''), 
         -- No Soberanos
-            -- Parroquias de Bermudas/Bermuda (9 parroquias)
+            -- Parroquias de Bermudas/Bermuda
                 ('Devonshire', 22, ''), 
                 ('Hamilton', 22, ''), 
                 ('Paget', 22, ''), 
@@ -809,7 +809,7 @@ VALUES
                 ('Southampton', 22, ''), 
                 ('Warwick', 22, ''), 
 
-            -- Municipalidades & Área no incorporada de Groenlandia (6)
+            -- Municipalidades & Área no incorporada de Groenlandia
                 ('Avannaata Kommunia', 23, ''), 
                 ('Kalaallit Nunaanni nuna eqqissisimatitaq/Grønlands Nationalpark', 23, ''), 
                 ('Kommune Kujalleq', 23, ''), 
@@ -817,7 +817,7 @@ VALUES
                 ('Kommuneqarfik Sermersooq', 23, ''), 
                 ('Qeqqata Kommunia', 23, ''), 
 
-            -- Atolones, Islas & Arrecife de Islas Ultramarinas Menores de Estados Unidos (9)
+            -- Atolones, Islas & Arrecife de Islas Ultramarinas Menores de Estados Unidos
                 ('Baker Island', 24, ''), 
                 ('Howland Island', 24, ''), 
                 ('Jarvis Island', 24, ''), 
@@ -828,13 +828,13 @@ VALUES
                 ('Palmyra Atoll', 24, 'Atolón'), 
                 ('Wake Island', 24, ''), 
 
-            -- Comunas de San Pedro y Miquelón (2 comunas)
+            -- Comunas de San Pedro y Miquelón
                 ('Miquelón-Langlade', 25, ''), 
                 ('Saint Pierre', 25, ''), 
 
     -- Provincias de Europa
         -- Soberanos
-            -- Municipios de Åland (16 municipios)
+            -- Municipios de Åland
                 ('Brändö', 26, ''), 
                 ('Eckerö', 26, ''), 
                 ('Finström', 26, ''), 
@@ -852,7 +852,7 @@ VALUES
                 ('Sund', 26, ''), 
                 ('Vardö', 26, ''), 
 
-            -- Condados de Albania (12 condados)
+            -- Condados de Albania
                 ('Beratit', 27, ''), 
                 ('Dibrës', 27, ''), 
                 ('Durrësit', 27, ''), 
@@ -866,7 +866,7 @@ VALUES
                 ('Tiranës', 27, ''), 
                 ('Vlorës', 27, ''), 
 
-            -- Estados federados de Alemania (16 estados)
+            -- Estados federados de Alemania
                 ('Baden-Württemberg', 28, ''), 
                 ('Bayern', 28, ''), 
                 ('Berlin', 28, ''), 
@@ -884,7 +884,7 @@ VALUES
                 ('Schleswig-Holstein', 28, ''), 
                 ('Thüringen', 28, ''), 
 
-            -- Parroquias de Andorra (7 parroquias)
+            -- Parroquias de Andorra
                 ('Andorra la Vella', 29, ''), 
                 ('Canillo', 29, ''), 
                 ('Encamp', 29, ''), 
@@ -893,7 +893,7 @@ VALUES
                 ('Ordino', 29, ''), 
                 ('Sant Julià de Lòria', 29, ''), 
 
-            -- Estados federados de Austria (9 estados)
+            -- Estados federados de Austria
                 ('Burgenland/Őrvidék', 30, ''), 
                 ('Kärnten', 30, ''), 
                 ('Niederösterreich', 30, ''), 
@@ -904,7 +904,7 @@ VALUES
                 ('Vorarlberg', 30, ''), 
                 ('Wien', 30, ''), 
 
-            -- Provincias de Bélgica (10 provincias)
+            -- Provincias de Bélgica
                 ('Amberes/Antwerpen/Anvers/Antwerpen', 31, ''), 
                 ('Brabante Flamenco/Vlaams-Brabant/Brabant flamand/Flämisch-Brabant', 31, ''), 
                 ('Brabante Valón/Waals-Brabant/Brabant wallon/Wallonisch-Brabant', 31, ''), 
@@ -916,7 +916,7 @@ VALUES
                 ('Luxemburgo/Luxemburg/Luxembourg', 31, ''), 
                 ('Namur/Namen/Namur/Namür', 31, ''), 
 
-            -- Regiones/Óblast de Belarús/Bielorrusia (6 regiones)
+            -- Regiones/Óblast de Belarús/Bielorrusia
                 ('Брэ́сцкая во́бласць/Bresckaja vobłaść/Бре́стская о́бласть/Bréstskaya óblast', 32, ''), 
                 ('Ві́цебская во́бласць/Vítsebskaya Vóblast', 32, ''), 
                 ('Гомельская вобласць/Гомельская область', 32, ''), 
@@ -925,7 +925,7 @@ VALUES
                 ('Мінск/Mińsk/Минск', 32, ''), 
                 ('Мінская вобласць', 32, ''), 
 
-            -- Cantones & Regiones de Bosnia y Herzegovina (17)
+            -- Cantones & Regiones de Bosnia y Herzegovina
                 ('Banjalučka/Banja Luka', 33, 'Región de la República Srpska'), 
                 ('Bijeljinska', 33, 'Región de la República Srpska'), 
                 ('Bosansko-podrinjskog kantona Goražde/Bosansko-podrinjska županija Goražde/Босанско-подрињски кантон Горажде', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
@@ -944,7 +944,7 @@ VALUES
                 ('Zapadno-hercegovačka/Zapadno-hercegovačka', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
                 ('Zeničko-dobojski', 33, 'Cantón de la Federación de Bosnia-Herzegovina'), 
 
-            -- Provincias de Bulgaria (28 provincias)
+            -- Provincias de Bulgaria
                 ('Благоевград', 34, ''), 
                 ('Бургас', 34, ''), 
                 ('Варна', 34, ''), 
@@ -974,7 +974,7 @@ VALUES
                 ('Шумен', 34, ''), 
                 ('Ямбол', 34, ''), 
 
-            -- Regiones de Chequia/República Checa (14 regiones)
+            -- Regiones de Chequia/República Checa
                 ('Jihomoravský', 35, ''), 
                 ('Jihočeský', 35, ''), 
                 ('Karlovarský', 35, ''), 
@@ -990,7 +990,7 @@ VALUES
                 ('Zlínský', 35, ''), 
                 ('Ústecký', 35, ''), 
 
-            -- Distritos Administrativos de Chipre (6 distritos)
+            -- Distritos Administrativos de Chipre
                 ('Αμμοχώστου/Gazimağusa', 36, ''), 
                 ('Κερύνειας/Girne', 36, ''), 
                 ('Λάρνακας/Larnaka', 36, ''), 
@@ -998,9 +998,9 @@ VALUES
                 ('Λευκωσίας/Lefkoşa', 36, ''), 
                 ('Πάφου/Baf', 36, ''), 
 
-            -- Provincias de Ciudad del Vaticano (0 provincias)
+            -- Provincias de Ciudad del Vaticano
 
-            -- Condados de Croacia (21 condados)
+            -- Condados de Croacia
                 ('Bjelovarsko-bilogorska', 38, ''), 
                 ('Brodsko-posavska', 38, ''), 
                 ('Dubrovačko-neretvanska', 38, ''), 
@@ -1023,14 +1023,14 @@ VALUES
                 ('Zadarska', 38, ''), 
                 ('Zagrebačka', 38, ''), 
 
-            -- Regiones de Dinamarca (5 regiones)
+            -- Regiones de Dinamarca
                 ('Hovedstaden', 39, ''), 
                 ('Midtjylland', 39, ''), 
                 ('Nordjylland', 39, ''), 
                 ('Sjælland', 39, ''), 
                 ('Syddanmark', 39, ''), 
 
-            -- Regiones de Eslovaquia (8 regiones)
+            -- Regiones de Eslovaquia
                 ('Banskobystrický', 40, ''), 
                 ('Bratislavský', 40, ''), 
                 ('Košický', 40, ''), 
@@ -1040,7 +1040,7 @@ VALUES
                 ('Trnavský', 40, ''), 
                 ('Žilinský', 40, ''), 
 
-            -- Regiones de Eslovenia (8 regiones)
+            -- Regiones de Eslovenia
                 ('Dolenjska', 41, ''), 
                 ('Gorenjska', 41, ''), 
                 ('Goriška', 41, ''), 
@@ -1050,7 +1050,7 @@ VALUES
                 ('Slovenska Istra', 41, ''), 
                 ('Štajerska', 41, ''), 
 
-            -- Comunidades autónomas de España (19 comunidades)
+            -- Comunidades autónomas de España
                 ('Andalucía', 42, 'Contiene Almería, Cádiz, Córdoba, Granada, Huelva, Jaén, Málaga, Sevilla'), 
                 ('Aragón', 42, 'Contiente Huesca, Teruel, Zaragoza'), 
                 ('Canarias', 42, 'Contiene Las Palmas, Santa Cruz de Tenerife'), 
@@ -1071,7 +1071,7 @@ VALUES
                 ('Principado de Asturias', 42, ''), 
                 ('Región de Murcia', 42, ''), 
 
-            -- Condados de Estonia (15 condados)
+            -- Condados de Estonia
                 ('Harjumaa', 43, ''), 
                 ('Hiiumaa', 43, ''), 
                 ('Ida-Virumaa', 43, ''), 
@@ -1088,7 +1088,7 @@ VALUES
                 ('Viljandimaa', 43, ''), 
                 ('Võrumaa', 43, ''), 
 
-            -- Regiones de Finlandia (19 regiones)
+            -- Regiones de Finlandia
                 ('Ahvenanmaa/Åland', 44, 'Sillä on oma maansa/Den har sitt eget land/It has its own country'), 
                 ('Etelä-Karjala/Södra Karelen', 44, ''), 
                 ('Etelä-Pohjanmaa/Södra Österbotten', 44, ''), 
@@ -1109,7 +1109,7 @@ VALUES
                 ('Uusimaa/Nyland', 44, ''), 
                 ('Varsinais-Suomi/Egentliga Finland', 44, ''), 
 
-            -- Regiones de Francia (18 regiones)
+            -- Regiones de Francia
                 ('Auvergne-Rhône-Alpes/Auvèrnhe Ròse Aups/Ôvèrgne Rôno-Arpes', 45, ''), 
                 ('Bourgogne-Franche-Comté/Borgogne-Franche-Comtât', 45, ''), 
                 ('Bretagne/Breizh/Bertaèyn', 45, ''), 
@@ -1129,7 +1129,7 @@ VALUES
                 ('Pays de la Loire/Broioù al Liger', 45, ''), 
                 ('Provence-Alpes-Côte d´Azur/Provença-Aups-Còsta d´Azur', 45, ''), 
 
-            -- Periferias de Grecia (14 periferias)
+            -- Periferias de Grecia
                 ('Ήπειρος', 46, ''), 
                 ('Ανατολικής Μακεδονίας και Θράκης/Anatolikís Makedonías kai Thrákis', 46, ''), 
                 ('Αττικής/Attikís', 46, ''), 
@@ -1145,7 +1145,7 @@ VALUES
                 ('Στερεάς Ελλάδας/Stereás Elládas', 46, ''), 
                 ('Ἄθως/Άγιον Όρος/Ágion Óros', 46, ''), 
 
-            -- Condados de Hungría (20 condados)
+            -- Condados de Hungría
                 ('Baranya', 47, ''), 
                 ('Bács-Kiskun', 47, ''),
                 ('Békés', 47, ''), 
@@ -1166,6 +1166,50 @@ VALUES
                 ('Vas', 47, ''), 
                 ('Veszprém', 47, ''), 
                 ('Zala', 47, ''), 
+
+            -- Condados de Irlanda
+                ('An Cabhán/Chabháin', 48, ''), 
+                ('An Clár/Chláir', 48, ''), 
+                ('An Dún/Dúin', 48, ''), 
+                ('An Iarmhí/hIarmhí', 48, ''), 
+                ('An Longfort/Longfoirt', 48, ''), 
+                ('An Mhí/Mí', 48, ''), 
+                ('Aontroim/Aontroma', 48, ''), 
+                ('Ard Mhacha', 48, ''), 
+                ('Áth/Átha Cliath', 48, ''), 
+                ('Ceatharlach/Cheatharlach', 48, ''), 
+                ('Ciarraí/Chiarraí', 48, ''), 
+                ('Cill/Chill Chainnigh', 48, ''), 
+                ('Cill/Chill Dara', 48, ''), 
+                ('Cill/Chill Mhantáin', 48, ''), 
+                ('Corcaigh/Chorcaí', 48, ''), 
+                ('Doire/Dhoire', 48, ''), 
+                ('Dún/Dhún na nGall', 48, ''), 
+                ('Fear/Fhear Manach', 48, ''), 
+                ('Gaillimh/Gaillimhe', 48, ''), 
+                ('Laois/Laoise', 48, ''), 
+                ('Liatroim/Liatroma', 48, ''), 
+                ('Loch Garman', 48, ''), 
+                ('Luimneach/Luimnigh', 48, ''), 
+                ('Lú', 48, ''), 
+                ('Maigh/Mhaigh Eo', 48, ''), 
+                ('Muineachán/Mhuineacháin', 48, ''), 
+                ('Port/Phort Láirge', 48, ''), 
+                ('Ros Comáin', 48, ''), 
+                ('Sligeach/Shligigh', 48, ''), 
+                ('Tiobraid/Thiobraid Árann', 48, ''), 
+                ('Tír/Thír Eoghain', 48, ''), 
+                ('Uíbh Fhailí', 48, ''), 
+
+            -- Regiones de Islandia
+                ('Austurland', 49, ''), 
+                ('Höfuðborgarsvæðið', 49, ''), 
+                ('Norðurland Eystra', 49, ''), 
+                ('Norðurland Vestra', 49, ''), 
+                ('Suðurland', 49, ''), 
+                ('Suðurnes', 49, ''), 
+                ('Vestfirðir', 49, ''), 
+                ('Vesturland', 49, ''), 
 
             -- 
         -- No Soberanos
